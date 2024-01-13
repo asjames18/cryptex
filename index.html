@@ -15,7 +15,8 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/price.css">
 
   <!-- 
     - google font link
@@ -23,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -123,145 +125,78 @@
 
       <section class="section trend" aria-label="crypto trend" data-section>
         <div class="container">
-
           <div class="trend-tab">
-
-            <ul class="tab-nav">
-
-              <li>
-                <button class="tab-btn active">Crypto</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">DeFi</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">BSC</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">NFT</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Metaverse</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Polkadot</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Solana</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Opensea</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Makersplace</button>
-              </li>
-
-            </ul>
-
-            <ul class="tab-content">
-
-              <li>
-                <div class="trend-card">
-
-                  <div class="card-title-wrapper">
-                    <img src="./assets/images/coin-1.svg" width="24" height="24" alt="bitcoin logo">
-
-                    <a href="#" class="card-title">
-                      Bitcoin <span class="span">BTC/USD</span>
-                    </a>
-                  </div>
-
-                  <data class="card-value" value="46168.95">USD 46,168.95</data>
-
-                  <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
-
-                    <div class="badge red">-0.79%</div>
-                  </div>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="trend-card active">
-
-                  <div class="card-title-wrapper">
-                    <img src="./assets/images/coin-2.svg" width="24" height="24" alt="ethereum logo">
-
-                    <a href="#" class="card-title">
-                      Ethereum <span class="span">ETH/USD</span>
-                    </a>
-                  </div>
-
-                  <data class="card-value" value="3480.04">USD 3,480.04</data>
-
-                  <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
-
-                    <div class="badge green">+10.55%</div>
-                  </div>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="trend-card">
-
-                  <div class="card-title-wrapper">
-                    <img src="./assets/images/coin-3.svg" width="24" height="24" alt="tether logo">
-
-                    <a href="#" class="card-title">
-                      Tether <span class="span">USDT/USD</span>
-                    </a>
-                  </div>
-
-                  <data class="card-value" value="1.00">USD 1.00</data>
-
-                  <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
-
-                    <div class="badge red">-0.01%</div>
-                  </div>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="trend-card">
-
-                  <div class="card-title-wrapper">
-                    <img src="./assets/images/coin-4.svg" width="24" height="24" alt="bnb logo">
-
-                    <a href="#" class="card-title">
-                      BNB <span class="span">BNB/USD</span>
-                    </a>
-                  </div>
-
-                  <data class="card-value" value="443.56">USD 443.56</data>
-
-                  <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
-
-                    <div class="badge red">-1.24%</div>
-                  </div>
-
-                </div>
-              </li>
-
-            </ul>
-
+            <ul class="tab-nav"></ul>
+                                  <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:BTCUSD"
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:ETHUSD"
+              },
+              {
+                "description": "",
+                "proName": "UNISWAP:HEXUSDC"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:BNBUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:DOGEUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:BTCUSD"
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:ETHUSD"
+              },
+              {
+                "description": "",
+                "proName": "UNISWAP:HEXUSDC"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:BNBUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:DOGEUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
           </div>
-
+          <!-- TradingView Widget END -->
+          <ul class="tab-nav"></ul>
         </div>
-      </section>
+      </div>
+    </section>
 
 
 
@@ -270,6 +205,24 @@
       <!-- 
         - #MARKET
       -->
+        <h1>Crypto Top 100</h1>
+        <main>
+            <table class="coin-table js-table">
+                <tr>
+                    <th>Rank</th>
+                    <th>Coin</th>
+                    <th>Ticker</th>
+                    <th>Current price</th>
+                    <th>24h</th>
+                </tr>
+            </table>
+            <footer>
+                API by <a href="https://coinpaprika.com/" target="_blank">coinpaprika</a>, 
+            </footer>
+    
+        <script defer src="js/price.js"></script>
+      
+    </main>
 
       <section class="section market" aria-label="market update" data-section>
         <div class="container">
@@ -277,40 +230,13 @@
           <div class="title-wrapper">
             <h2 class="h2 section-title">Market Update</h2>
 
+
             <a href="#" class="btn-link">See All Coins</a>
           </div>
 
           <div class="market-tab">
 
             <ul class="tab-nav">
-
-              <li>
-                <button class="tab-btn active">View All</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Metaverse</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Entertainment</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Energy</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">NFT</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Gaming</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Music</button>
-              </li>
 
             </ul>
 
