@@ -68,7 +68,7 @@
    * spacing
    */
 
-  --section-padding: 100px;
+  --section-padding: 60px;
 
   /**
    * shadow
@@ -515,6 +515,17 @@ body.active { overflow: hidden; }
   #MARKET
 \*-----------------------------------*/
 
+.mcw-table.dark{
+  background: #1e222d !important;
+}
+.mcw-table.dark table.dataTable.display tbody tr.odd{
+  background: #1e222d !important;
+
+}
+.mcw-table.dark table.dataTable.display tbody tr.even{
+  background: #343b4e58 !important;
+
+}
 .market {
   background-color: var(--eerie-black-1);
   color: var(--white);
