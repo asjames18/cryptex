@@ -530,6 +530,16 @@ body.active { overflow: hidden; }
   background-color: var(--eerie-black-1);
   color: var(--white);
 }
+.market .convert-cal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.market-cal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .market .title-wrapper {
   display: flex;
