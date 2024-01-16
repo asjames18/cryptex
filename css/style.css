@@ -395,7 +395,7 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus, .active) { color: var(--blue-crayola); }
+/* .navbar-link:is(:hover, :focus, .active) { color: var(--blue-crayola); } */
 
 .hero-banner .w-100 {
   width: 350px;
@@ -1058,10 +1058,10 @@ address.footer-contact-link { max-width: 30ch; }
     padding: 15px 12px;
   }
 
-  .navbar-link:is(:hover, :focus, .active) {
+  /* .navbar-link:is(:hover, :focus, .active) {
     background-color: var(--blue-crayola);
     color: var(--white);
-  }
+  } */
 
 
 
