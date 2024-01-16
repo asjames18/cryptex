@@ -397,7 +397,11 @@ body.active { overflow: hidden; }
 
 .navbar-link:is(:hover, :focus, .active) { color: var(--blue-crayola); }
 
-
+.hero-banner .w-100 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
 
 
 
